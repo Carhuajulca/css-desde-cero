@@ -1,0 +1,25 @@
+h2, h3 {
+    font-size: 30px;
+    font-family: sans-serif;
+}
+
+
+.contenedor > p {
+    text-transform: uppercase;
+    color: darkgreen;
+}
+
+.contenedor a {
+    text-decoration: none;
+    color:  firebrick;
+}
+
+.contenedor > a {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+/* seleccioanado un elemento hermano */
+h2 + p {
+    color: gold;
+}
