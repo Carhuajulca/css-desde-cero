@@ -1,0 +1,36 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+/* Sombras en Css */
+/* box-shadow: sombra(derecha +, sombra izquierda -), sombra(abajo +, arriba -), difuminación, tamaño, color; */
+.box1 {
+    width: 150px;
+    height: 150px;
+    background-color: blueviolet;
+    margin: 40px;
+    box-shadow: 10px 10px 0 0 green;
+}
+.box2 {
+    width: 150px;
+    height: 150px;
+    background-color: blueviolet;
+    margin: 40px;
+    box-shadow: -10px -10px  10px;
+}
+.box3 {
+    width: 150px;
+    height: 150px;
+    background-color: blueviolet;
+    margin: 40px;
+    box-shadow: 10px -10px ;
+}
+.box4 {
+    width: 150px;
+    height: 150px;
+    background-color: blueviolet;
+    margin: 40px;
+    box-shadow: -10px 10px ;
+}

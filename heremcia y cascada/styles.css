@@ -1,0 +1,20 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* .enlace {
+    display: inline-block;
+    text-decoration: none;
+    background-color: crimson;
+    color: antiquewhite;
+    padding: 15px;
+} */
+
+
+.header {
+    height: 400px;
+    background: crimson;
+    color: white;
+    
+}
