@@ -1,0 +1,23 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.header {
+    height: 600px;
+    padding: 0.1px;
+    /* Usando gradientes */
+    /* background-image:linear-gradient(rgba(0, 0, 139, 0.336), rgba(0, 0, 255, 0.308)), url(img/python.png); */
+    background-image: linear-gradient(to right, #43e97a71 0%, #38f9d677 100%), url(img/python.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.titulo {
+    color: #fff;
+    font-size: 70px;
+    text-align: center;
+    margin-top: 270px;
+}
