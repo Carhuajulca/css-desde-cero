@@ -1,0 +1,84 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #A0E7E5;
+}
+
+.container {
+    width: 70%;
+    margin: 30px auto;
+    padding: 20px;
+    background-color: antiquewhite;
+    box-shadow: 9px 9px 9px -3px rgba(0,0,0,0.47);
+}
+
+.title {
+    /* valores(right, left, center) */
+    text-align: center;
+}
+
+.uno {
+    font-family: Verdana, Geneva, Tahoma, sans-serif ;
+    text-align: center;
+    padding: 10px 0;
+    /* Esta propiedad hace espacio
+  entre letras los valoes pueden ser positovos o negativcos*/
+    letter-spacing: 5px;  
+    
+}
+.dos {
+    font-family:sans-serif ;
+    text-align: center;
+    padding: 10px 0;
+    /* word-spacing: Esta propiedad da espaciado entre palabras; */
+    word-spacing: 8px;
+    
+}
+.tres {
+    font-family: Georgia;
+    text-align: justify;
+    padding: 10px 0;
+    /* Sus valoes de esta propiedad puede hacer que cambie el tipo de letra (uppercase, capitalize, lowercase) */
+    text-transform: uppercase;
+    
+}
+
+.cuatro {
+    font-family: Georgia;
+    text-align: justify;
+    padding: 10px 0;
+    /* Esta propiedad hace un espaciado entre lineas */
+    line-height: 40px;
+    
+}
+.cinco {
+    font-family: Georgia;
+    text-align: justify;
+    padding: 10px 0;
+    /* Sus valoes de esta propiedad puede hacer que cambie el tipo de letra (uppercase, capitalize, lowercase) */
+    text-transform: uppercase;
+    
+}
+.seis {
+    font-family: Georgia;
+    text-align: justify;
+    padding: 10px 0;
+    /* Sus valoes de esta propiedad puede hacer que cambie el tipo de letra (uppercase, capitalize, lowercase) */
+    text-transform: uppercase;
+    
+}
+
+a {
+    display: inline-block;
+    text-align: center;
+}
+
+
+span {
+    font-weight: bold;
+    text-transform: uppercase;
+}
